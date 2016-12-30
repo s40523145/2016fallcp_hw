@@ -318,42 +318,6 @@ def gen_int():
             </article>
             <hr/>
             <article>
-                <h2><a href="../xin-nian-kuai-le-16.html">新年快樂 16</a></h2>
-                <div class="summary"><p>2017 年元旦快樂</p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!--以下可以執行-->
-
-<div id="newyear"></div>
-
-<script type="text/python3">
-from browser import document
-from browser import html
-import random
-print_location = document["newyear"]
-
-def gen_int():
-    num = random.randint(1, 49)
-    # 設法將 num 列印在網頁上
-    #print_location = document["newyear"]
-    print_location ...</script></!--以下可以執行--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../xin-nian-kuai-le-16.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
                 <h2><a href="../02py.html">02.py</a></h2>
                 <div class="summary"><p>Brython 繪圖</p>
 <!-- 導入 Brython 標準程式庫 -->
@@ -433,6 +397,38 @@ def compa(e):
                 </div>
             </article>
             <hr/>
+            <article>
+                <h2><a href="../cai-shu-zi-you-xi-16-3.html">猜數字遊戲16-3</a></h2>
+                <div class="summary"><p>2017 年元旦快樂</p>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<script>
+<script type="text/python3">
+from browser import document
+from browser import html
+import random
+
+標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 < 你猜的數字 ...</script></script></!--></!-->
+                    <a class="btn btn-default btn-xs" href="../cai-shu-zi-you-xi-16-3.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -449,11 +445,6 @@ def compa(e):
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../xin-nian-kuai-le-16.html">
-                            新年快樂 16
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <a href="../02py.html">
                             02.py
                         </a>
@@ -466,6 +457,11 @@ def compa(e):
                     <li class="list-group-item">
                         <a href="../hua-xian-lian-xi-03.html">
                             畫線練習03
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../hua-xian-lian-xi-02.html">
+                            畫線練習02
                         </a>
                     </li>
                 </ul>

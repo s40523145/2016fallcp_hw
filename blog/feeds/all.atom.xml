@@ -55,47 +55,7 @@ def lottery(e):
 document["but2"].bind("click", lottery)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="but2"&gt;恭喜中獎&lt;/button&gt;&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>新年快樂 16</title><link href="./xin-nian-kuai-le-16.html" rel="alternate"></link><published>2016-12-30T00:00:00+08:00</published><updated>2016-12-30T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-12-30:./xin-nian-kuai-le-16.html</id><summary type="html">&lt;p&gt;2017 年元旦快樂&lt;/p&gt;
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
-
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
-window.onload=function(){
-brython(1);
-}
-&lt;/script&gt;
-
-&lt;!--以下可以執行--&gt;
-
-&lt;div id="newyear"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document
-from browser import html
-import random
-print_location = document["newyear"]
-
-def gen_int():
-    num = random.randint(1, 49)
-    # 設法將 num 列印在網頁上
-    #print_location = document["newyear"]
-    print_location &lt;= num + html.BR()
-
-def lottery(e):
-    for i in range(6):
-        gen_int()
-    print_location &lt;= "(可能重複)恭喜中獎!" + html.BR()
-
-#document["but1"].bind("click", gen_int)
-document["but1"].bind("click", lottery)
-&lt;/script&gt;
-
-&lt;p&gt;&lt;button id="but1"&gt;產生 1-49 整數亂數 (可能重複)&lt;/button&gt;&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>02.py</title><link href="./02py.html" rel="alternate"></link><published>2016-12-23T12:00:00+08:00</published><updated>2016-12-23T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-12-23:./02py.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;p&gt;&lt;button id="but2"&gt;恭喜中獎&lt;/button&gt;&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>02.py</title><link href="./02py.html" rel="alternate"></link><published>2016-12-23T12:00:00+08:00</published><updated>2016-12-23T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-12-23:./02py.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -1877,4 +1837,39 @@ ctx.closePath()
 ctx.fillStyle = '#fff'
 ctx.fill()
 &amp;lt;/script&amp;gt;
-&lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry></feed>
+&lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>猜數字遊戲16-3</title><link href="./cai-shu-zi-you-xi-16-3.html" rel="alternate"></link><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-01-01:./cai-shu-zi-you-xi-16-3.html</id><summary type="html">&lt;p&gt;2017 年元旦快樂&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;script&gt;
+&lt;script type="text/python3"&gt;
+from browser import document
+from browser import html
+import random
+
+標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 &lt; 你猜的數字:
+        print("太大了，再猜一次 :)加油")
+    else:
+        print("太小了，再猜一次 :)加油")
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1
+
+print("猜對了！總共猜了", 猜測次數, "次")
+
+
+&lt;/script&gt;</summary><category term="Brython"></category></entry></feed>

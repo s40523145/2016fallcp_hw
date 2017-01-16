@@ -97,7 +97,7 @@
 </v>
 </v>
 <v t="yen.20161011143808.1"><vh>協同力訓練</vh>
-<v t="yen.20161011143808.2" a="E"><vh>Github 帳號</vh>
+<v t="yen.20161011143808.2"><vh>Github 帳號</vh>
 <v t="yen.20161011143808.3"><vh>Github 倉儲網頁</vh></v>
 </v>
 <v t="yen.20161011144113.1"><vh>倉儲子模組串連</vh>
@@ -163,21 +163,20 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
-<v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
-<v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
-<v t="leo.20170112232049.1"><vh>@edit 20161114..md</vh></v>
-<v t="leo.20170112232057.1"><vh>@edit 20161202.md</vh></v>
-<v t="leo.20170112232103.1"><vh>@edit 20161209a.md</vh></v>
-<v t="leo.20170112232109.1"><vh>@edit 20161209b.md</vh></v>
-<v t="leo.20170112232114.1"><vh>@edit 20161216.md</vh></v>
-<v t="leo.20170112232120.1"><vh>@edit 20161223.md</vh></v>
-<v t="leo.20170112232127.1"><vh>@edit 20161230.md</vh></v>
-<v t="leo.20170112232133.1"><vh>@edit 20170106.md</vh></v>
+<v t="amd.20160727114506.1"><vh>201609</vh></v>
+<v t="leo.20170116101507.1"><vh>@edit 20161114.md</vh></v>
+<v t="leo.20170116101611.1"><vh>@edit 20161201.md</vh></v>
+<v t="leo.20170116101716.1"><vh>@edit 20161202.md</vh></v>
+<v t="leo.20170116101759.1"><vh>@edit 20161203.md</vh></v>
+<v t="leo.20170116101900.1"><vh>@edit 20161216.md</vh></v>
+<v t="leo.20170116102000.1"><vh>@edit 20161223.md</vh></v>
+<v t="leo.20170116102048.1"><vh>@edit 20161230.md</vh></v>
+<v t="leo.20170116102120.1"><vh>@edit 20161231.md</vh></v>
+<v t="leo.20170116102153.1"><vh>@edit 20170101.md</vh></v>
+<v t="leo.20170116102236.1"><vh>@edit 20170106.md</vh></v>
 </v>
 </v>
-</v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -308,15 +307,16 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall 計算機程式課程
+<t tx="amd.20161004095719.2"># 2016Fall s40523145 謝丞智
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40523138](http://s40523138.github.io/kmolab/blog/)
+#Created by [40523145](https://github.com/s40523145/2016fallcp_hw)
+#Created by [vimeo](https://vimeo.com/user57033161)
 &lt;/small&gt;
 
-[40523138](blog/index.html)
+[blog](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;

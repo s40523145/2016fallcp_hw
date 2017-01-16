@@ -17,7 +17,6 @@
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
-<v t="leo.20161230150748.1"><vh>newHeadline</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
@@ -134,7 +133,7 @@
 <v t="yen.20161011150901.2"><vh>網際動畫範例</vh></v>
 </v>
 </v>
-<v t="yen.20161016012809.1" a="E"><vh>各式內容引用範例</vh>
+<v t="yen.20161016012809.1"><vh>各式內容引用範例</vh>
 <v t="yen.20161016012809.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20161016012809.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -150,7 +149,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
+<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -167,22 +166,18 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
-<v t="leo.20161031141953.1"><vh>@edit 20161104.md</vh></v>
-<v t="yen.20161105200835.1"><vh>@edit 20161105.md</vh></v>
-<v t="leo.20161114144444.1"><vh>@edit 20161114.md</vh></v>
-<v t="leo.20161209200311.1"><vh>@edit 20161201.md</vh></v>
-<v t="leo.20161209201333.1"><vh>@edit 20161202.md</vh></v>
-<v t="leo.20161209201744.1"><vh>@edit 20161203.md</vh></v>
-<v t="leo.20161216135010.1"><vh>@edit 20161216.md</vh></v>
-<v t="leo.20161230133948.1"><vh>@edit 20161230.md</vh></v>
-<v t="leo.20161223143049.1"><vh>@edit 20161223.md</vh></v>
-<v t="leo.20161230144943.1"><vh>@edit 20161231.md</vh></v>
-<v t="leo.20161230150753.1"><vh>@edit 20170101.md</vh></v>
-<v t="leo.20170106134352.1"><vh>@edit 20170106.md</vh></v>
+<v t="leo.20170112232049.1"><vh>@edit 20161114..md</vh></v>
+<v t="leo.20170112232057.1"><vh>@edit 20161202.md</vh></v>
+<v t="leo.20170112232103.1"><vh>@edit 20161209a.md</vh></v>
+<v t="leo.20170112232109.1"><vh>@edit 20161209b.md</vh></v>
+<v t="leo.20170112232114.1"><vh>@edit 20161216.md</vh></v>
+<v t="leo.20170112232120.1"><vh>@edit 20161223.md</vh></v>
+<v t="leo.20170112232127.1"><vh>@edit 20161230.md</vh></v>
+<v t="leo.20170112232133.1"><vh>@edit 20170106.md</vh></v>
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -190,14 +185,6 @@
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
-<v t="yen.20161105200127.1" a="E"><vh>選課人員名單</vh>
-<v t="yen.20161105200140.1"><vh>@edit a.txt</vh></v>
-<v t="yen.20161105200241.1"><vh>@edit b.txt</vh></v>
-</v>
-<v t="yen.20161105200145.1" a="E"><vh>分組名單</vh>
-<v t="yen.20161105200154.1"><vh>@edit agroup.txt</vh></v>
-<v t="yen.20161105200234.1"><vh>@edit bgroup.txt</vh></v>
-</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -321,16 +308,15 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall s40523145 謝丞智
+<t tx="amd.20161004095719.2"># 2016Fall 計算機程式課程
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-#Created by [40523145](https://github.com/s40523145/2016fallcp_hw)
-#Created by [vimeo](https://vimeo.com/user57033161)
+Created by [40523138](http://s40523138.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[blog](blog/index.html)
+[40523138](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
@@ -495,7 +481,6 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
-<t tx="leo.20161230150748.1"></t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1048,7 +1033,7 @@ import http.server, ssl
 def domake():
     # build directory
     os.chdir("./../")
-    server_address = ('192.168.1.70', 5443)
+    server_address = ('localhost', 5443)
     httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
     httpd.socket = ssl.wrap_socket(httpd.socket,
                                    server_side=True,
@@ -1064,7 +1049,5 @@ make.start()</t>
 <t tx="yen.20161022151749.1">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 
 </t>
-<t tx="yen.20161105200127.1"></t>
-<t tx="yen.20161105200145.1"></t>
 </tnodes>
 </leo_file>
